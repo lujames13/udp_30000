@@ -1,0 +1,6 @@
+UDP伺服器已在 0.0.0.0:30000 啟動，等待接收資料...
+Traceback (most recent call last):
+  File "/home/lab01/code/lujames13/udp_30000/udp_server.py", line 18, in <module>
+    data, address = server_socket.recvfrom(1024)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyboardInterrupt
